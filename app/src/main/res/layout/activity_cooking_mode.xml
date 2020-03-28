@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cooking_mode"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.barcode.com.cookingstove.CookingModeActivity"
+    android:background="@drawable/bg">
+    <include layout="@layout/titlebar"
+        android:id="@+id/toolbar"/>
+
+    <TextView
+        android:text="Choose one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/autoBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="99dp"
+        android:id="@+id/Text"
+        android:textSize="32sp"/>
+
+    <Button
+        android:text="Automatically cooking"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="53dp"
+        android:id="@+id/autoBtn"
+        android:layout_below="@+id/manualBtn"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_boarder"/>
+
+    <Button
+        android:text="Manual cooking"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:id="@+id/manualBtn"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/autoBtn"
+        android:background="@drawable/button_boarder"/>
+</RelativeLayout>

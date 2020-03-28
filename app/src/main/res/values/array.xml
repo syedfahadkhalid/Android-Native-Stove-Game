@@ -1,0 +1,17 @@
+<resources>
+    <string-array name="sections">
+        <item >Water</item>
+        <item >Rice</item>
+        <item >Edd</item>
+        <item >Egg</item>
+        <item >Milk</item>
+        <item >Pasta</item>
+        <item >Chicken</item>
+        <item >Pudding</item>
+        <item >Pancake</item>
+        <item >Omelet</item>
+        <item >Kabsah</item>
+        <item >Noodles</item>
+        <item >Steak</item>
+    </string-array>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cooking_mode"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.barcode.com.cookingstove.CookingModeActivity"
+    android:background="@drawable/bg">
+    <include layout="@layout/titlebar"
+        android:id="@+id/toolbar"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Cook Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cookNameTextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:text="Tempreature"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tempTextView" />
+
+        <Button
+            android:text="@string/Edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEditTemp"
+            android:background="@drawable/button_boarderless"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <TextView
+            android:text="Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeTextView"
+          />
+
+        <Button
+            android:text="@string/Edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEditTime"
+            android:background="@drawable/button_boarderless"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"/>
+    </GridLayout>
+
+    <Button
+        android:text="Start Cook"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:id="@+id/startCookBtn"
+        android:layout_marginEnd="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="511dp"
+        android:background="@drawable/button_boarder"/>
+</RelativeLayout>
